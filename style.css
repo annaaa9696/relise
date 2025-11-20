@@ -156,7 +156,7 @@ body {
 
 .gradient-box {
     padding: 25px;
-    background: linear-gradient(135deg, #8f3833 0%, #d5534c 100%); 
+    background: linear-gradient(135deg, #FF9B45 0%, #D5451B 100%); 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }    
 
@@ -260,12 +260,20 @@ body {
     width: 250px;
 }
 
+
+
+
+
+
 .catalog{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: #ffffff;
 }
+
+
 
 .product-card {
   width: 320px;
@@ -288,6 +296,7 @@ body {
 
 .product-card__body {
   padding: 18px 18px 22px;
+  
 }
 
 
@@ -352,7 +361,7 @@ body {
 .product-card__new-price {
   font-size: 18px;
   font-weight: 700;
-  color: #f44336; 
+  color: #ff3f31; 
 }
 
 .product-card__btn {
@@ -374,3 +383,4 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
+
